@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+    font-family: "comic sans ms";
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: black;
+}
+nav h1 {
+    color: white;
+    font-size: 40px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    list-style-type: none;
+
+}
+button {
+    background-color: #16a3b8;
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+article {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 200px;
+}
+.first-two,.other-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+}
+.profile {
+    width: 600px;
+}
+.info {
+    padding: 0 30px;
+    min-height: 50px;
+    border: 4px solid #b9b9b9;
+}
+.banner {
+    background-color:#16a3b8;
+    width: 100%;
+    height: 120px;
+}
+.pfp {
+    height: 140px;
+    width: 140px;
+    margin-top: -70px;
+    border-radius: 50%;
+    border: 4px solid #b9b9b9;
+}
+.info h1 {
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.location,.edit-profile {
+    display: flex;
+    align-items: center;
+    margin: 15px 0; 
+}
+.location img,.edit-profile img {
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+}
+.edit-profile img {
+    cursor: pointer;
+}
+.edit-profile a {
+    font-size: 20px;
+    color: #2b78e4;
+    width: fit-content;
+}
+.education {
+    width: 600px;
+}
+.education .info {
+    padding:20px 0 20px 20px;
+}
+.dark-banner {
+    background-color: #323332;
+    padding: 20px;
+}
+.dark-banner h3 {
+    color: white;
+    letter-spacing: 2px;
+}
+.education .info h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.education .info h2 {
+    color: #b9b9b9;
+    margin-bottom: 10px;
+}
+.education .info p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.requests {
+    width: 350px;
+}
+.requests .dark-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dark-banner span {
+    background-color: #cccccc;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.name-img {
+    display: flex;
+    align-items: center;
+}
+.name-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right:20px;
+}
+.icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.view-more {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-bottom: 4px solid #b9b9b9;
+    border-left: 4px solid #b9b9b9;
+    border-right: 4px solid #b9b9b9;
+    padding: 20px;
+}
+.view-more a {
+    font-size: 20px;
+}
